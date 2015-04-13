@@ -1,0 +1,58 @@
+.core-loader {
+	background: transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+	zoom: 1;
+}
+
+#nav-menu ul.nav-menu-aux {
+    margin-right: -15px;
+}
+
+div.home-data div.panel-body {
+	padding: 25px 25px 30px 25px;
+}
+div.home-data div.stats-summary div.number p {
+	width: 95px;
+	padding: 4px 5px;
+}
+div.home-data div.stats-summary div.number span {
+	width: 100px;
+	padding: 0 5px;
+}
+div.home-data div.stats-summary div a {
+	padding: 4px 5px;
+}
+
+div.chart div.menu button {
+	position: absolute;
+	left: -9999px;
+}
+
+.tablelist td.actions {
+	min-width: 130px;
+}
+
+div.stats-date div.date div.months button {
+	padding: 6px 6px;
+}
+div.stats-date div.range div.input-group input, 
+div.stats-date div.range div.input-group button {
+	height: 30px;
+	padding: 5px;
+	font-size: 18px;
+	line-height: 1;
+}
+div.stats-date div.range div.input-group button {
+	padding: 5px;
+}
+
+div.flayout-canvas div.edit-line div.move, 
+div.flayout-canvas div.edit-block div.move, 
+div.flayout-canvas div.edit-line div.move i, 
+div.flayout-canvas div.edit-block div.move i, 
+div.flayout-canvas div.edit-line button, 
+div.flayout-canvas div.edit-block button, 
+div.flayout-canvas div.edit-line button i, 
+div.flayout-canvas div.edit-block button i {
+	filter: inherit;
+}
