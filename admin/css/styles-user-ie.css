@@ -45,14 +45,3 @@ div.stats-date div.range div.input-group button {
 div.stats-date div.range div.input-group button {
 	padding: 5px;
 }
-
-div.flayout-canvas div.edit-line div.move, 
-div.flayout-canvas div.edit-block div.move, 
-div.flayout-canvas div.edit-line div.move i, 
-div.flayout-canvas div.edit-block div.move i, 
-div.flayout-canvas div.edit-line button, 
-div.flayout-canvas div.edit-block button, 
-div.flayout-canvas div.edit-line button i, 
-div.flayout-canvas div.edit-block button i {
-	filter: inherit;
-}

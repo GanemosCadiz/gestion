@@ -28,7 +28,7 @@
   Options +FollowSymlinks
 # Options +SymLinksIfOwnerMatch
   RewriteEngine On
-  RewriteBase /framewoork/admin/
+  RewriteBase /ganemos/gestion/admin/
   RewriteRule ^([^/]+)/([^/]+)/$ index.php?module=$1&section=$2$3 [QSA]
   RewriteRule ^([^/]+)/$ index.php?module=$1$2 [QSA]
 </IfModule>

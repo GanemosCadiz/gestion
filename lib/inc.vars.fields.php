@@ -106,7 +106,7 @@ $cfg['fields']['users'] = array(
 											'label' => "Tipo de usuario", 
 											'default' => function($item) {
 																								global $cfg, $var, $obj;
-																								if ($cfg['options']['user-types'] == "new") {
+																								if ($var['page']['section'] == "new") {
 																									return "";
 																								} else {
 																									$type = core::fieldGetVal("users", $item, "type");

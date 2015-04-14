@@ -9,10 +9,10 @@
 
 // Application configuration
 $cfg['app'] = array(
-	'name' => "Framewoork", 
-	'title' => "Framewoork", 
-	'costumer' => "26horas", 
-	'copyright' => "© " . date("Y") . " 26horas"
+	'name' => "Ganemos Cádiz", 
+	'title' => "Ganemos Cádiz", 
+	'costumer' => "Ganemos Cádiz", 
+	'copyright' => "Todos los derechos reservados - " . date("Y") . " Ganemos Cádiz"
 );
 
 // Server configuration
@@ -34,7 +34,7 @@ if ($cfg['localhost']) {
 
 // Folders
 $cfg['folders'] = array(
-	'root' => "/framewoork/", 
+	'root' => "/ganemos/gestion/", 
 	'site' => "", 
 	'admin' => "admin/"
 );
@@ -60,7 +60,7 @@ $cfg['lang'] = array(
 
 // Sessions
 $cfg['session'] = array(
-	'prefix' => "framewoork", 
+	'prefix' => "ganemosCadiz", 
 	'life' => 1 // Cookie life (days)
 );
 
